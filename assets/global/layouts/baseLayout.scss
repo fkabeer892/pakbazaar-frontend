@@ -1,0 +1,18 @@
+@import "@/assets/global/variables/light"; // Sass Variables
+@import "@/assets/global/components/ant"; // Ant Global
+@import "@/assets/global/custom/customClasses"; // Custom Classes
+@import "@/assets/global/custom/htmlTagStyle"; // Custom Classes
+@import "@/assets/global/components/header/baseHeader"; // Header Component
+@import "@/assets/global/components/sidebar/baseSidebar"; // Sidebar Component
+
+
+.main-layout{
+  margin-left: 200px;
+}
+.ant-layout-content{
+    padding: 90px 60px 0;
+}
+#layout .logo {
+    height: 32px;
+    margin: 16px;
+}
